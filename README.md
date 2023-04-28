@@ -16,3 +16,6 @@ E:\code\python\learning\your project path >deactivate
 (myapp)E:\code\python\learning\your project path >pip instal django
 # then finally u should run this to start yuor django project
 (myapp)E:\code\python\learning\your project path >django-admin startproject popoProject 
+# when we whant creat app after that run this
+# -(we dont want manage.py actually)
+(myapp)E:\code\python\learning\your project path\popoProject >python manage.py startapp myapp
