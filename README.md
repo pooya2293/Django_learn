@@ -20,3 +20,4 @@ E:\code\python\learning\your project path >deactivate
 # -(we dont want manage.py actually)
 (myapp)E:\code\python\learning\your project path\popoProject >python manage.py startapp myapp
 # when we whant run our project
+(myapp) E:\code\python\learning\Django_learn\popoProject>python manage.py runserver
