@@ -19,3 +19,4 @@ E:\code\python\learning\your project path >deactivate
 # when we whant creat app after that run this
 # -(we dont want manage.py actually)
 (myapp)E:\code\python\learning\your project path\popoProject >python manage.py startapp myapp
+# when we whant run our project
