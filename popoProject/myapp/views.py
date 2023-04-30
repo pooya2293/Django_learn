@@ -5,10 +5,11 @@ from django.http import HttpResponse
 
 
 def index(request):
-    context = {
-        "name": "pier",
-        "family": "morgan",
-        "old": 24,
-        "gender": "male"
-    }
-    return render(request, 'index.html', context)
+    return render(request, 'index.html')
+
+
+def counter(request):
+    # we experinced just ok with text name in index and here
+    text = request.GET['text']
+    amount_of_words = len(text.split())
+    return render(request, 'counter.html', {'amount': amount_of_words})
