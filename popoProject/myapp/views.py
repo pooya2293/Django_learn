@@ -5,5 +5,10 @@ from django.http import HttpResponse
 
 
 def index(request):
-    name = 'jhon'
-    return render(request, 'index.html', {'name': name})
+    context = {
+        "name": "pier",
+        "family": "morgan",
+        "old": 24,
+        "gender": "male"
+    }
+    return render(request, 'index.html', context)
