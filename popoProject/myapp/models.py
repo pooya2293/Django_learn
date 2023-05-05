@@ -7,3 +7,6 @@ class Feature:
     id: int
     name: str
     details: str
+    number: str
+    mode: str
+    is_true: bool
