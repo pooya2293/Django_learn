@@ -51,3 +51,7 @@ E:\code\python\learning\Django_learn\popoProject>python manage.py makemigrations
 # when we whant to migrate (load) an models
 
 E:\code\python\learning\Django_learn\popoProject>python manage.py migrate
+
+# create Admin user
+
+E:\code\python\learning\Django_learn\popoProject>python manage.py createsuperuser
