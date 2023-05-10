@@ -61,10 +61,8 @@ def logout(request):
 
 
 def counter(request):
-    # we experinced just ok with text name in index and here
-    text = request.POST['text']
-    amount_of_words = len(text.split())
-    return render(request, 'counter.html', {'amount': amount_of_words})
+    posts = [1, 2, 3, 4, 5, 6, 'tim', 'tom', 'pooriya']
+    return render(request, 'counter.html', {'posts': posts})
 
 
 def post(request, pk):
