@@ -55,3 +55,20 @@ E:\code\python\learning\Django_learn\popoProject>python manage.py migrate
 # create Admin user
 
 E:\code\python\learning\Django_learn\popoProject>python manage.py createsuperuser
+
+# link postgresql to your Django project
+
+first download postgresql and next run PgAdmin ->
+1-write click in ui Databases in PgAdmin -> create -> database...
+2-write database name and -> save in here: pooryaProject
+note:in here when you go to ->Databases->pooryaProject->Schemas->Tables
+you do not see any tabel from your project
+3-edite some info in setting.py that you can see
+4-install tow pip package
+first: E:\code\python\learning\Django_learn\popoProject>pip install psycopg2
+second: E:\code\python\learning\Django_learn\popoProject>pip install pillow
+5-E:\code\python\learning\Django_learn\popoProject>python manage.py makemigrations
+6-E:\code\python\learning\Django_learn\popoProject>python manage.py migrate
+7- then in here when you go to ->Databases->pooryaProject->Schemas->Tables
+Now you can see yor tabels and now you can go to ->
+8-myapp_feature -> riteClick -> view/Edit Data -> All Rows :now you can Add row in Data Output
